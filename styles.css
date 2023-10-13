@@ -1,0 +1,25 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(39, 37, 53);
+}
+
+h1 {
+    color: rgb(128, 122, 208);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(128, 122, 208);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+a {
+    color: rgb(196, 196, 196);
+}

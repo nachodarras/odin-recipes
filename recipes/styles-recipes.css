@@ -1,0 +1,35 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 40px;
+}
+
+body.italian-chicken {
+    background-color: rgb(255, 219, 175);
+}
+
+body.cuban-ropa-vieja {
+    background-color: rgb(216, 123, 111);
+}
+
+body.lasagna {
+    background-color: rgb(123, 203, 240);
+}
+
+.italian-chicken h1, .italian-chicken h2, .italian-chicken h3 {
+    color: rgb(255, 140, 140);
+}
+
+.cuban-ropa-vieja h1, .cuban-ropa-vieja h2, .cuban-ropa-vieja h3 {
+    color: rgb(249, 225, 147);
+}
+
+.lasagna h1, .lasagna h2, .lasagna h3 {
+    color:rgb(255, 253, 157);
+}
+
+img {
+    border-radius: 25px;
+}
